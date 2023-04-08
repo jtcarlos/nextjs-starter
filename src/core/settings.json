@@ -1,0 +1,9 @@
+{
+  "metaData": {
+    "siteName": "NextJS Starter",
+    "siteCreator": "John Thomas Carlos",
+    "siteDescription": "NextJS Starter is a boilerplate project that serves as a starting point for all future NextJS projects."
+  },
+  "navigation": {},
+  "footer": {}
+}

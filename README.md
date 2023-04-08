@@ -18,6 +18,7 @@ The main objective of the file and folder structure is to create a scalable and 
   - 📄 about.js
 - 📁 src
   - 📁 core
+    - 📁 services
     - 📄 settings.json
   - 📁 components
     - 📁 elements
@@ -30,7 +31,6 @@ The main objective of the file and folder structure is to create a scalable and 
       - 📁 services
       - 📁 utils
       - 📄 index.js
-  - 📁 services
   - 📁 styles
     - 📄 auth.module.scss
     - 📄 main.scss
