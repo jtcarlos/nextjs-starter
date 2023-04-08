@@ -1,0 +1,37 @@
+// @author: John Thomas Carlos | www.jtcarlos.com
+// Copyright © 2023
+
+$tablet-breakpoint: 1023px;
+$desktop-breakpoint: 1024px;
+$smartphone-breakpoint: 640px;
+$desktop-large-breakpoint: 1280px;
+
+@mixin tablet {
+  @media (max-width: #{$tablet-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin smartphone {
+  @media (max-width: #{$smartphone-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (min-width: #{$desktop-large-breakpoint}) {
+    @content;
+  }
+}
+
+.is-hidden-mobile {
+  @include smartphone {
+    display: none !important;
+  }
+}
