@@ -39,5 +39,39 @@
       }
     ]
   },
-  "footer": {}
+  "footer": {
+    "links": [
+      {
+        "type": "link",
+        "pageId": "home",
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "type": "link",
+        "label": "Products",
+        "link": "/",
+        "pageId": "products"
+      },
+      {
+        "type": "link",
+        "label": "Community",
+        "link": "/",
+        "pageId": "community"
+      },
+      {
+        "type": "link",
+        "label": "Blog",
+        "link": "/",
+        "pageId": "blog"
+      },
+      {
+        "size": "small",
+        "label": "Sign In",
+        "type": "button",
+        "link": "/",
+        "className": "bg-primary text-white w-full md:w-auto"
+      }
+    ]
+  }
 }

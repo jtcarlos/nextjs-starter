@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Helmet from "./Helmet";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const PageLayout = ({
   pageId,
@@ -20,7 +21,7 @@ const PageLayout = ({
           {showNavigation && <Navbar pageId={pageId} />}
           <main className="page-main-content">{children}</main>
         </div>
-        {showFooter && <p>Footer Content</p>}
+        {showFooter && <Footer />}
       </div>
     </Fragment>
   );
