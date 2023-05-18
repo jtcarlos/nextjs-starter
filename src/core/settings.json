@@ -4,6 +4,40 @@
     "siteCreator": "John Thomas Carlos",
     "siteDescription": "NextJS Starter is a boilerplate project that serves as a starting point for all future NextJS projects."
   },
-  "navigation": {},
+  "navigation": {
+    "links": [
+      {
+        "type": "link",
+        "pageId": "home",
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "type": "link",
+        "label": "Products",
+        "link": "/",
+        "pageId": "products"
+      },
+      {
+        "type": "link",
+        "label": "Community",
+        "link": "/",
+        "pageId": "community"
+      },
+      {
+        "type": "link",
+        "label": "Blog",
+        "link": "/",
+        "pageId": "blog"
+      },
+      {
+        "size": "small",
+        "label": "Sign In",
+        "type": "button",
+        "link": "/",
+        "className": "bg-primary text-white w-full md:w-auto"
+      }
+    ]
+  },
   "footer": {}
 }

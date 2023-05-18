@@ -13,6 +13,12 @@ module.exports = {
   theme: {
     container: { padding: "2rem" },
     colors: {
+      primary: "#0042CC",
+      danger: "#FF4D4D",
+      success: "#00C48C",
+      warning: "#FFC82C",
+      info: "#00B8D9",
+      "light-primary": "#C5DCFF",
       ...tailwindColors,
     },
     extend: {},

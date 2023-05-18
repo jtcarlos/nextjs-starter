@@ -1,8 +1,11 @@
 import { Fragment } from "react";
 
 import Helmet from "./Helmet";
+import Banner from "./Banner";
+import Navbar from "./Navbar";
 
 const PageLayout = ({
+  pageId,
   children,
   pageTitle,
   showFooter = true,
@@ -11,9 +14,10 @@ const PageLayout = ({
   return (
     <Fragment>
       <Helmet title={pageTitle} />
+      <Banner />
       <div className="page-layout flex flex-col justify-between">
         <div>
-          {showNavigation && <p>Navigation Bar</p>}
+          {showNavigation && <Navbar pageId={pageId} />}
           <main className="page-main-content">{children}</main>
         </div>
         {showFooter && <p>Footer Content</p>}
